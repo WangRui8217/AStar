@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/AStar.h
+iostream
+-
+list
+-
+vector
+-
+
+/home/reid/Codes/C/C/AStar/main.cpp
+AStar.h
+/home/reid/Codes/C/C/AStar/AStar.h
+iostream
+-
+vector
+-
+
+/home/reid/Codes/C/C/AStar/src/AStar.cpp
+AStar.h
+/home/reid/Codes/C/C/AStar/src/AStar.h
+cmath
+-
+iostream
+-
+vector
+-
+
